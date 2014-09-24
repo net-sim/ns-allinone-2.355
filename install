@@ -16,7 +16,6 @@
 # WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
 # MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 #
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 #
@@ -183,7 +182,6 @@ DEI80211MRVER=1.1.4
 CUR_PATH=`pwd`
 echo "============================================================"
 echo "* Testing for Darwin (OS X) environment"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -201,7 +199,6 @@ packages_xorg="xorg-server xinit libX11-devel libXmu-devel"
 # contributed by Nicolas Christin <christin@sims.berkeley.edu>
 echo "============================================================"
 echo "* Testing for Cygwin environment"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -238,7 +235,6 @@ echo "Cygwin not detected, proceeding with regular install.";
 fi;
 echo "============================================================"
 echo "* Testing for FreeBSD environment"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -254,7 +250,6 @@ fi
 # Compile and install xgraph
 echo "============================================================"
 echo "* Build XGraph-$XGRAPHVER"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -273,7 +268,6 @@ cd ../
 # Compile and install cweb and sgblib
 echo "============================================================"
 echo "* Build CWeb"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -303,7 +297,6 @@ PATH=$CUR_PATH/bin:$PATH
 export PATH
 echo "============================================================"
 echo "* Build Stanford GraphBase"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -330,7 +323,6 @@ cd ..
 # Compile and install gt-itm & sgb2ns
 echo "============================================================"
 echo "* Build GT-ITM"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -360,7 +352,6 @@ fi
 # Build zlib
 echo "============================================================"
 echo "* Build zlib"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -380,7 +371,6 @@ cd ../
 # Build Tcl8.4.18
 echo "============================================================"
 echo "* Build tcl$TCLVER"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -408,7 +398,6 @@ cd ../../
 # compile and install tk
 echo "============================================================"
 echo "* Build Tk$TKVER"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -446,7 +435,6 @@ cd ../../
 # Build otcl
 echo "============================================================"
 echo "* Build OTcl-$OTCLVER"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -478,7 +466,6 @@ cd ..
 # Build tclcl
 echo "============================================================"
 echo "* Build Tclcl-$TCLCLVER"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -501,7 +488,6 @@ cd ../
 test -f ./otcl-$OTCLVER/libotcl.a && rm ./otcl-$OTCLVER/libotcl.so
 echo "============================================================"
 echo "* Build ns-$NSVER"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -526,7 +512,6 @@ cd ../
 # Build nam
 echo "============================================================"
 echo "* Build nam-$NAMVER"
-echo "* Modified By NetSim Engineering Team"
 echo "* Email-id : porsesh@net-sim.ir"
 echo "* Website : http://www.net-sim.ir"
 echo "============================================================"
@@ -629,7 +614,6 @@ sudo chmod -R 777 ~/ns2/
 echo ""
 echo "----------------------------------------------------------------------------------"
 echo ""
-echo -e "\033[1m * Modified By NetSim Engineering Team \033[0m"
 echo -e "\033[1m * Website : http://www.net-sim.ir \033[0m"
 echo -e "\033[1m * Email-id : porsesh@net-sim.ir  \033[0m"
 #echo -e "\033[34m Type the following command after the installation \033[0m"
